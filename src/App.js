@@ -1,6 +1,6 @@
 import './App.css';
 import React from 'react';
-import pizzaData from '../public/data';
+import pizzaData from '../public/data.js';
 
 
 function Header() {
