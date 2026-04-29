@@ -1,5 +1,5 @@
 import React from 'react';
-import pizzaData from './data.js';
+import pizzaData from './data';
 import './index.css'
 
 
@@ -18,6 +18,7 @@ function Menu() {
   const pizzas = pizzaData;
   const numPizzas = pizzas.length;
   console.log(numPizzas);
+  console.log(pizzas);
 
   return (
       <main className="menu">
